@@ -19,9 +19,13 @@ In this way it will be easier to synchronize video with data.
 
 - D0 and GND
 
-### LED IR
+### Led IR
 
-- D1  
+- D1
+
+### Led Status
+
+- D8
 
 This sketch collects sensor data at 500hz and stores it on an SD card in a .bin file.
 A Python script transforms it into a .csv file and another one .gcsv in the order and with the information needed for Gyroflow.
