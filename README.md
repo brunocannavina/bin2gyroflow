@@ -6,16 +6,22 @@ In this way it will be easier to synchronize video with data.
 
 ## Arduino wiring
 
-´´´
- MPU9250 <----> ARDUINO
-   VIN   <---->   3.3V
-   GND   <---->   3.3V   
-   SDA   <---->   SDA
-   SCL   <---->   SCL
+### MPU9250 <--> Arduino
 
-  BUTTON <---->   D0 (and GND)
-  IR LED <---->   D1
-´´´
+| Pin MPU9250 | Pin Arduino |
+|-------------|-------------|
+| VIN         | 3.3V        |
+| GND         | GND         |
+| SDA         | SDA         |
+| SCL         | SCL         |
+
+### Button
+
+- D0 and GND
+
+### LED IR
+
+- D1  
 
 This sketch collects sensor data at 500hz and stores it on an SD card in a .bin file.
 A Python script transforms it into a .csv file and another one .gcsv in the order and with the information needed for Gyroflow.
