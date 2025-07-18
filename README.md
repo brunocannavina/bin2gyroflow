@@ -33,7 +33,6 @@ To run the python script use the following code:
 ``` python bin2flow.py data01.bin ```
 
 where data01.bin will depend on which file you are reading
-Or drag the .bin file over the bin2flow.exe if you don't have Python installed on your computer.
 
 And that's it, I'm leaving you a sample file so you can transform it and the corresponding video so you can try it in Gyroflow.
 
