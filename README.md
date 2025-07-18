@@ -30,7 +30,7 @@ A Python script transforms it into a .csv file and another one .gcsv in the orde
 
 To run the python script use the following code:
 
-python bin2flow.py data01.bin
+``` python bin2flow.py data01.bin ```
 
 where data01.bin will depend on which file you are reading
 Or drag the .bin file over the bin2flow.exe if you don't have Python installed on your computer.
